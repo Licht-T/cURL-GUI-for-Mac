@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC48AF4148DBE01006BDA9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC48AF3148DBE01006BDA9B /* Cocoa.framework */; };
+		5BC48AFE148DBE01006BDA9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC48AFC148DBE01006BDA9B /* InfoPlist.strings */; };
+		5BC48B00148DBE01006BDA9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC48AFF148DBE01006BDA9B /* main.m */; };
+		5BC48B04148DBE01006BDA9B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC48B02148DBE01006BDA9B /* Credits.rtf */; };
+		5BC48B07148DBE01006BDA9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC48B06148DBE01006BDA9B /* AppDelegate.m */; };
+		5BC48B0A148DBE02006BDA9B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC48B08148DBE02006BDA9B /* MainMenu.xib */; };
+		5BC48B12148DBE02006BDA9B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC48B11148DBE02006BDA9B /* SenTestingKit.framework */; };
+		5BC48B13148DBE02006BDA9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC48AF3148DBE01006BDA9B /* Cocoa.framework */; };
+		5BC48B1B148DBE02006BDA9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC48B19148DBE02006BDA9B /* InfoPlist.strings */; };
+		5BC48B1E148DBE02006BDA9B /* CURL_GUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC48B1D148DBE02006BDA9B /* CURL_GUITests.m */; };
+		5BC48B28148DC0EA006BDA9B /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC48B27148DC0EA006BDA9B /* libcurl.dylib */; };
+		5BC48B2A148E0803006BDA9B /* curl.log in Resources */ = {isa = PBXBuildFile; fileRef = 5BC48B29148E0802006BDA9B /* curl.log */; };
+		5BC48B2C148E0815006BDA9B /* curl.html in Resources */ = {isa = PBXBuildFile; fileRef = 5BC48B2B148E0815006BDA9B /* curl.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC48B14148DBE02006BDA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC48AE6148DBE01006BDA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC48AEE148DBE01006BDA9B;
+			remoteInfo = "CURL GUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BC48AEF148DBE01006BDA9B /* CURL GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CURL GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC48AF3148DBE01006BDA9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BC48AF6148DBE01006BDA9B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5BC48AF7148DBE01006BDA9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5BC48AF8148DBE01006BDA9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BC48AFB148DBE01006BDA9B /* CURL GUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CURL GUI-Info.plist"; sourceTree = "<group>"; };
+		5BC48AFD148DBE01006BDA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC48AFF148DBE01006BDA9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BC48B01148DBE01006BDA9B /* CURL GUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CURL GUI-Prefix.pch"; sourceTree = "<group>"; };
+		5BC48B03148DBE01006BDA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5BC48B05148DBE01006BDA9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5BC48B06148DBE01006BDA9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BC48B09148DBE02006BDA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BC48B10148DBE02006BDA9B /* CURL GUITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CURL GUITests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC48B11148DBE02006BDA9B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BC48B18148DBE02006BDA9B /* CURL GUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CURL GUITests-Info.plist"; sourceTree = "<group>"; };
+		5BC48B1A148DBE02006BDA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC48B1C148DBE02006BDA9B /* CURL_GUITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CURL_GUITests.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5BC48B1D148DBE02006BDA9B /* CURL_GUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CURL_GUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BC48B27148DC0EA006BDA9B /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		5BC48B29148E0802006BDA9B /* curl.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curl.log; sourceTree = "<group>"; };
+		5BC48B2B148E0815006BDA9B /* curl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = curl.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC48AEC148DBE01006BDA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC48B28148DC0EA006BDA9B /* libcurl.dylib in Frameworks */,
+				5BC48AF4148DBE01006BDA9B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC48B0C148DBE02006BDA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC48B12148DBE02006BDA9B /* SenTestingKit.framework in Frameworks */,
+				5BC48B13148DBE02006BDA9B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC48AE4148DBE01006BDA9B = {
+			isa = PBXGroup;
+			children = (
+				5BC48B2B148E0815006BDA9B /* curl.html */,
+				5BC48B29148E0802006BDA9B /* curl.log */,
+				5BC48AF9148DBE01006BDA9B /* CURL GUI */,
+				5BC48B16148DBE02006BDA9B /* CURL GUITests */,
+				5BC48AF2148DBE01006BDA9B /* Frameworks */,
+				5BC48AF0148DBE01006BDA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC48AF0148DBE01006BDA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC48AEF148DBE01006BDA9B /* CURL GUI.app */,
+				5BC48B10148DBE02006BDA9B /* CURL GUITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC48AF2148DBE01006BDA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC48B27148DC0EA006BDA9B /* libcurl.dylib */,
+				5BC48AF3148DBE01006BDA9B /* Cocoa.framework */,
+				5BC48B11148DBE02006BDA9B /* SenTestingKit.framework */,
+				5BC48AF5148DBE01006BDA9B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BC48AF5148DBE01006BDA9B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC48AF6148DBE01006BDA9B /* AppKit.framework */,
+				5BC48AF7148DBE01006BDA9B /* CoreData.framework */,
+				5BC48AF8148DBE01006BDA9B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5BC48AF9148DBE01006BDA9B /* CURL GUI */ = {
+			isa = PBXGroup;
+			children = (
+				5BC48B05148DBE01006BDA9B /* AppDelegate.h */,
+				5BC48B06148DBE01006BDA9B /* AppDelegate.m */,
+				5BC48B08148DBE02006BDA9B /* MainMenu.xib */,
+				5BC48AFA148DBE01006BDA9B /* Supporting Files */,
+			);
+			path = "CURL GUI";
+			sourceTree = "<group>";
+		};
+		5BC48AFA148DBE01006BDA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC48AFB148DBE01006BDA9B /* CURL GUI-Info.plist */,
+				5BC48AFC148DBE01006BDA9B /* InfoPlist.strings */,
+				5BC48AFF148DBE01006BDA9B /* main.m */,
+				5BC48B01148DBE01006BDA9B /* CURL GUI-Prefix.pch */,
+				5BC48B02148DBE01006BDA9B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BC48B16148DBE02006BDA9B /* CURL GUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC48B1C148DBE02006BDA9B /* CURL_GUITests.h */,
+				5BC48B1D148DBE02006BDA9B /* CURL_GUITests.m */,
+				5BC48B17148DBE02006BDA9B /* Supporting Files */,
+			);
+			path = "CURL GUITests";
+			sourceTree = "<group>";
+		};
+		5BC48B17148DBE02006BDA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC48B18148DBE02006BDA9B /* CURL GUITests-Info.plist */,
+				5BC48B19148DBE02006BDA9B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC48AEE148DBE01006BDA9B /* CURL GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC48B21148DBE02006BDA9B /* Build configuration list for PBXNativeTarget "CURL GUI" */;
+			buildPhases = (
+				5BC48AEB148DBE01006BDA9B /* Sources */,
+				5BC48AEC148DBE01006BDA9B /* Frameworks */,
+				5BC48AED148DBE01006BDA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CURL GUI";
+			productName = "CURL GUI";
+			productReference = 5BC48AEF148DBE01006BDA9B /* CURL GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BC48B0F148DBE02006BDA9B /* CURL GUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC48B24148DBE02006BDA9B /* Build configuration list for PBXNativeTarget "CURL GUITests" */;
+			buildPhases = (
+				5BC48B0B148DBE02006BDA9B /* Sources */,
+				5BC48B0C148DBE02006BDA9B /* Frameworks */,
+				5BC48B0D148DBE02006BDA9B /* Resources */,
+				5BC48B0E148DBE02006BDA9B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC48B15148DBE02006BDA9B /* PBXTargetDependency */,
+			);
+			name = "CURL GUITests";
+			productName = "CURL GUITests";
+			productReference = 5BC48B10148DBE02006BDA9B /* CURL GUITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC48AE6148DBE01006BDA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5BC48AE9148DBE01006BDA9B /* Build configuration list for PBXProject "CURL GUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BC48AE4148DBE01006BDA9B;
+			productRefGroup = 5BC48AF0148DBE01006BDA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC48AEE148DBE01006BDA9B /* CURL GUI */,
+				5BC48B0F148DBE02006BDA9B /* CURL GUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC48AED148DBE01006BDA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC48AFE148DBE01006BDA9B /* InfoPlist.strings in Resources */,
+				5BC48B04148DBE01006BDA9B /* Credits.rtf in Resources */,
+				5BC48B0A148DBE02006BDA9B /* MainMenu.xib in Resources */,
+				5BC48B2A148E0803006BDA9B /* curl.log in Resources */,
+				5BC48B2C148E0815006BDA9B /* curl.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC48B0D148DBE02006BDA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC48B1B148DBE02006BDA9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BC48B0E148DBE02006BDA9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC48AEB148DBE01006BDA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC48B00148DBE01006BDA9B /* main.m in Sources */,
+				5BC48B07148DBE01006BDA9B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC48B0B148DBE02006BDA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC48B1E148DBE02006BDA9B /* CURL_GUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC48B15148DBE02006BDA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC48AEE148DBE01006BDA9B /* CURL GUI */;
+			targetProxy = 5BC48B14148DBE02006BDA9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BC48AFC148DBE01006BDA9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC48AFD148DBE01006BDA9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BC48B02148DBE01006BDA9B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC48B03148DBE01006BDA9B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5BC48B08148DBE02006BDA9B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC48B09148DBE02006BDA9B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5BC48B19148DBE02006BDA9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC48B1A148DBE02006BDA9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC48B1F148DBE02006BDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BC48B20148DBE02006BDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BC48B22148DBE02006BDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CURL GUI/CURL GUI-Prefix.pch";
+				INFOPLIST_FILE = "CURL GUI/CURL GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BC48B23148DBE02006BDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CURL GUI/CURL GUI-Prefix.pch";
+				INFOPLIST_FILE = "CURL GUI/CURL GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BC48B25148DBE02006BDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CURL GUI.app/Contents/MacOS/CURL GUI";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CURL GUI/CURL GUI-Prefix.pch";
+				INFOPLIST_FILE = "CURL GUITests/CURL GUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5BC48B26148DBE02006BDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CURL GUI.app/Contents/MacOS/CURL GUI";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CURL GUI/CURL GUI-Prefix.pch";
+				INFOPLIST_FILE = "CURL GUITests/CURL GUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC48AE9148DBE01006BDA9B /* Build configuration list for PBXProject "CURL GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC48B1F148DBE02006BDA9B /* Debug */,
+				5BC48B20148DBE02006BDA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC48B21148DBE02006BDA9B /* Build configuration list for PBXNativeTarget "CURL GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC48B22148DBE02006BDA9B /* Debug */,
+				5BC48B23148DBE02006BDA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC48B24148DBE02006BDA9B /* Build configuration list for PBXNativeTarget "CURL GUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC48B25148DBE02006BDA9B /* Debug */,
+				5BC48B26148DBE02006BDA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC48AE6148DBE01006BDA9B /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CURL GUI' target in the 'CURL GUI' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
